@@ -41,6 +41,7 @@ if [[ ! -z `hostnamectl | egrep -i 'centos|red hat|oracle linux'` ]];then
 fi
 
 if [[ ! -z `hostnamectl | egrep -i 'Debian|Ubuntu'` ]]; then
+ sudo apt-get update -y
  sudo apt install git -y
  sudo apt install apache2 -y
  sudo apt install python3
