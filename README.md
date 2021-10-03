@@ -32,7 +32,7 @@ Btw, Reference Software here is a python code (script) which pull some key syste
 
    https://github.com/remykumar/system_info_devops
 
-5. To execute the script (do it from your home directory):
+5. To execute the script (do it from your home directory & by using your user account not root):
 
     `./build.sh`
 
