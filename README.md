@@ -20,7 +20,7 @@ Btw, Reference Software here is a python code (script) which pull some key syste
   
     `cp ~/build_system_info/build.sh ~ (or) cp ~/build_system_info/build.sh .`
 
-3. Before executing, please check the following commands
+3. Before executing, make sure http port 80 is open & please check the following commands
 
     `pwd` : You should in your home directory
 
