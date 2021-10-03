@@ -5,10 +5,10 @@ Build script for getting system stats
 
 Source code link: https://github.com/remykumar/build_system_info
 
-Build script is the shell script which does the installation, execution of the Reference Software (python code) and make sure supporting softwares, directories are present. 
-This also starts the http server (if stopped), does a status health check for the deployed html file and gets the URL to be accessed for the system info/monitoring page.
+Build script is the shell script which does the installation, execution of the Reference Software (python code) and makes sure supporting softwares, directories are present. This also starts the http server (if stopped), does a status health check for the deployed html file and gets the URL to be accessed for the system info/monitoring page.
 
-Btw, Reference Software here is a python code (script) which pull some key system information & monitoring data (CPU usage, Memory usage & disk usage) from the Host Operating System and creates a html page. This html file can be deployed on a web server (http server) to be viewed on a browser. The python code runs continuously every 60 seconds and updates the html – so the system info (or monitoring) page dynamically is updated. ( https://github.com/remykumar/system_info_devops)
+Btw, Reference Software here is a python code (script) which will pull some key system information & monitoring data (CPU usage, Memory usage & disk usage) from the Host Operating System and creates a html page. This html file can be deployed on a web server (http server) to be viewed on a browser. The python code runs continuously every 60 seconds and updates the html – so the system info (or monitoring) page is dynamically updated. ( https://github.com/remykumar/system_info_devops )
+
 
 **Execution instruction for Build script:**
 
@@ -16,7 +16,7 @@ Btw, Reference Software here is a python code (script) which pull some key syste
  
     `git clone https://github.com/remykumar/build_system_info.git`
 
-2. Move the build.sh to your home directory (assuming you are doing this from your home) 
+2. Move the build.sh to your home directory (assuming you did the clone from your home directory) 
   
     `cp ~/build_system_info/build.sh ~ (or) cp ~/build_system_info/build.sh .`
 
@@ -32,11 +32,11 @@ Btw, Reference Software here is a python code (script) which pull some key syste
 
    https://github.com/remykumar/system_info_devops
 
-5. To execute the script (do it from your home directory & by using your user account not root):
+5. To execute this script (do it from your home directory & by using your user account, not root):
 
     `./build.sh`
 
-6. Successful execution of the script will result in these kind of messages on console :
+6. Successful execution of the script will result in these kinds of messages on console :
   ```
   Building the code .....Build Complete!
   -------------------------------------------------------------------------
