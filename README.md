@@ -51,7 +51,8 @@ This build starts a python code which runs indefinitely (every 60 seconds) to co
 
 7. To kill the python script & stop the stats collection:
  
-    `pkill -f sysinfo.py (Note : To check if the process is running, pgrep -f sysinfo.py)`
+    `pkill -f sysinfo.py`
+    (Note : To check if the process is running, `pgrep -f sysinfo.py`)
 
 Note: This script has no to low overhead. Didn’t notice any CPU increase on a low config virtual machine.
 
