@@ -8,6 +8,8 @@ Source code link: https://github.com/remykumar/build_system_info
 Build script is the shell script which does the installation, execution of the Reference Software (python code) and make sure supporting softwares, directories are present. 
 This also starts the http server (if stopped), does a status health check for the deployed html file and gets the URL to be accessed for the system info/monitoring page.
 
+Btw, Reference Software here is a python code (script) which pull some key system information & monitoring data (CPU usage, Memory usage & disk usage) from the Host Operating System and creates a html page. This html file can be deployed on a web server (http server) to be viewed on a browser. The python code runs continuously every 60 seconds and updates the html – so the system info (or monitoring) page dynamically is updated. ( https://github.com/remykumar/system_info_devops)
+
 **Execution instruction for Build script:**
 
 1. Clone the source
@@ -27,6 +29,7 @@ This also starts the http server (if stopped), does a status health check for th
    Reference: https://www.cyberciti.biz/faq/linux-unix-running-sudo-command-without-a-password/
 
 4. Please note: This script will download, install and execute another code from 
+
    https://github.com/remykumar/system_info_devops
 
 5. To execute the script (do it from your home directory):
