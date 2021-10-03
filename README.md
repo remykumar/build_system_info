@@ -52,3 +52,18 @@ This build starts a python code which runs indefinitely (every 60 seconds) to co
     `pkill -f sysinfo.py (Note : To check if the process is running, pgrep -f sysinfo.py)`
 
 Note: This script has no to low overhead. Didn’t notice any CPU increase on a low config virtual machine.
+
+
+
+<br>
+
+**Some tasks done by the Build Script (build.sh):**
+-	Installs git, python3 and the http server 
+-	Starts the http server & enable it on reboot
+-	Remove the old code directory and use git to download fresh code every time  
+-	Gets the Python code (Reference Software) from git
+-	Gets the internal and external IPs of the host machine
+-	Moves the html and image to the exact location on http server root directory
+-	Health check: curls the External and Internal IP addresses to check the http 200 success status. Tries to use External IP first since this code is to be run on AWS EC2 instance as well.
+
+
