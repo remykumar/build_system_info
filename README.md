@@ -43,7 +43,7 @@ Btw, Reference Software here is a python code (script) which will pull some key 
   Deploying the code on the http server .....Deploy Complete!
   -------------------------------------------------------------------------
   Please access the System Stats (System Information) page here : 
-  http://192.168.42.129/systeminfo.html*
+  http://192.168.42.129/systeminfo.html
   ```
 This build starts a python code which runs indefinitely (every 60 seconds) to collect system stats from the machine it is been run on. 
 
