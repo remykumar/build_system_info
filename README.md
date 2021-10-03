@@ -22,7 +22,7 @@ Btw, Reference Software here is a python code (script) which will pull some key 
 
 3. Before executing, make sure http port 80 is open & please check the following commands
 
-    `pwd` : You should in your home directory
+    `pwd` : You should be in your home directory
 
     `sudo su -` : You should be able do a password-less sudo to root & execute all sudo commands without password. This can be done by editing the visudo file and adding an entry like remy ALL=(ALL) NOPASSWD: ALL
    
